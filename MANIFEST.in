@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include pharma *.css
+recursive-include pharma *.csv
+recursive-include pharma *.html
+recursive-include pharma *.ico
+recursive-include pharma *.js
+recursive-include pharma *.json
+recursive-include pharma *.md
+recursive-include pharma *.png
+recursive-include pharma *.py
+recursive-include pharma *.svg
+recursive-include pharma *.txt
+recursive-exclude pharma *.pyc
